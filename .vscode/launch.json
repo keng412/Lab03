@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kendallfoy/Documents/1566/test_mac_opengl",
+      "program": "/Users/kendallfoy/Documents/1566/test_mac_opengl/build/Debug/outDebug"
+    }
+  ]
+}
