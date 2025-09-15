@@ -126,26 +126,6 @@ void keyboard(unsigned char key, int mousex, int mousey)
     	exit(0);
 
     glutPostRedisplay();
-
-    //check this!!!!!
-    if(key=='1')
-    {
-    	glPolygonMode(GL_FRONT, GL_FILL);
-    	glPolygonMode(GL_BACK, GL_LINE);
-    }
-    else if(key=='2')
-    {
-    	glPolygonMode(GL_FRONT, GL_LINE);
-    	glPolygonMode(GL_BACK, GL_FILL);
-    }
-    else if(key=='3')
-    {
-    	glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-    }
-    else if(key=='4')
-    {
-    	glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-    }
 }
 
 void idle(void)
